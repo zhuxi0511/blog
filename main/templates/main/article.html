@@ -2,6 +2,10 @@
 {% load staticfiles %}          
 {% load i18n %}               
 
+{% block title %}
+{{ article.title }}-
+{% endblock %}
+
 {% block content %}
 <div class='mtb-15'>
     <div class='container'>

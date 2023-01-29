@@ -4,7 +4,9 @@
     {% load i18n %}               
     <head>
         <meta charset="utf-8">
-        <title>抹茶小姐和朱古力先生</title>
+        <title>
+            {% block title%}{% endblock %}抹茶小姐和朱古力先生
+        </title>
         <link rel="shortcut icon" href="{% static 'image/favicon.ico' %}">
         <meta name="format-detection" content="telephone=no" >
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,6 +16,7 @@
         <link rel="stylesheet" href="{% static 'css/default.css' %}">
         <link rel="stylesheet" href="{% static 'css/custom.css' %}">
         <link rel="stylesheet" href="{% static 'css/markdownx.css' %}">
+        <meta name="baidu-site-verification" content="code-YPLAHSC5Wt" />
 
         <!-- source han serif --!>
         <script>
